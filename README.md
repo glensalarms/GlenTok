@@ -9,6 +9,11 @@ GlenTok is a lightweight, self-hosted alternative to TikTok built with Python an
 - **Remote Access ready** (works over your local network or behind a tunnel/reverse proxy)
 - **Ad Free** experience (no ads, pop-ups, or algorithms)
 
+## Live Demo
+
+Try GlenTok right in your browser without installing anything:  
+**[https://pixel-pro.co.uk](https://pixel-pro.co.uk)**
+
 ## Prerequisites
 * **Python:** Ensure you have Python installed on your system.
 * **Custom Favicon (Optional):** To display a browser tab icon, place a PNG image named `logo.png` in the root folder alongside `server.py`.
