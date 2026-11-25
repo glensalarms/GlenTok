@@ -14,6 +14,14 @@ GlenTok is a lightweight, self-hosted alternative to TikTok built with Python an
 * **Custom Favicon (Optional):** To display a browser tab icon, place a PNG image named `logo.png` in the root folder alongside `server.py`.
 * **Auto-Start (Windows):** GlenTok does not start automatically with your system. To run it on startup, create a shortcut to `start.bat` and place it in your Windows Startup folder (`shell:startup`) or on your desktop.
 
+## How to Install
+1. **Download all files** from this GitHub repository (click **Code** > **Download ZIP** and extract it).
+2. **Create a folder** named `glentok--server` (e.g., `C:\glentok--server`).
+3. **Move all extracted files** (`server.py`, `start.bat`, etc.) into that folder.
+4. **Create a subfolder** named `Content` inside `glentok--server` and place your videos in it.
+5. **Run `start.bat`** to launch the server.
+6. *(Optional)* **Add a PNG file named `logo.png`** to the `glentok--server` folder to use as your browser tab favicon.
+  
 ## Configuration
 Before starting the application, configure your target video directory path (default: `C:\glentok-server\Content`):
 
