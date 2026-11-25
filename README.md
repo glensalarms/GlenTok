@@ -23,7 +23,7 @@ GlenTok is a lightweight, self-hosted alternative to TikTok built with Python an
 6. *(Optional)* **Add a PNG file named `logo.png`** to the `glentok--server` folder to use as your browser tab favicon.
   
 ## Configuration
-Before starting the application, configure your target video directory path (default: `C:\glentok-server\Content`):
+Before starting the application, configure your target video directory path (default: `C:\glentok--server\Content`):
 
 1. Open `server.py` in your preferred text editor.
 2. Navigate to **line 8**.
