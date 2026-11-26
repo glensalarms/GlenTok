@@ -2,6 +2,12 @@
 
 GlenTok is a lightweight, self-hosted alternative to TikTok built with Python and configured to run on port `3003`. Unlike traditional platforms, all video content is managed and uploaded directly on the server backend rather than through the user interface.
 
+## Live Demo
+
+Try GlenTok right in your browser without installing anything:  
+**[https://demo.pixel-pro.co.uk](https://demo.pixel-pro.co.uk)**
+**The 'Demo' tag next to 'GlenTok' in the header will not show on live installs**
+
 ## Features
 - **Autoscroll** for hands-free playback
 - **Up/Down scroll buttons** on either side for an improved mobile experience
