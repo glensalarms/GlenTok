@@ -37,14 +37,14 @@ Try GlenTok right in your browser without installing anything:
 
 ## How to Install
 1. **Download all files** from this GitHub repository (click **Code** > **Download ZIP** and extract it).
-2. **Create a folder** named `glentok--server` (e.g., `C:\glentok--server`).
+2. **Create a folder** named `glentok-server` (e.g., `C:\glentok-server`).
 3. **Move all extracted files** (`server.py`, `start.bat`, etc.) into that folder.
 4. **Create a subfolder** named `Content` inside `glentok--server` and place your videos in it.
 5. **Run `start.bat`** to launch the server.
-6. *(Optional)* **Add a PNG file named `logo.png`** to the `glentok--server` folder to use as your browser tab favicon.
+6. *(Optional)* **Add a PNG file named `logo.png`** to the `glentok-server` folder to use as your browser tab favicon.
   
 ## Configuration
-Before starting the application, configure your target video directory path (default: `C:\glentok--server\Content`):
+Before starting the application, configure your target video directory path (default: `C:\glentok-server\Content`):
 
 1. Open `server.py` in your preferred text editor.
 2. Navigate to **line 8**.
