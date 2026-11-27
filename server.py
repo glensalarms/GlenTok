@@ -4,8 +4,8 @@ import os
 import json
 import urllib.parse
 
-PORT = 3003
-VIDEO_DIR = r"C:\glentok--server\Content"
+PORT = int(os.environ.get("PORT", 3003))
+VIDEO_DIR = os.environ.get("VIDEO_DIR", r"C:\glentok--server\Content")
 VALID_EXTS = (".mp4", ".webm", ".mov", ".m4v")
 
 HTML_PAGE = """<!DOCTYPE html>
@@ -15,6 +15,7 @@ HTML_PAGE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>GlenTok - Beat Your Boredom!</title>
     <link rel="icon" type="image/png" href="/Logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -122,7 +123,7 @@ HTML_PAGE = """<!DOCTYPE html>
 </head>
 <body>
     <div class="top-bar">
-        <span style="font-weight: bold; font-size: 18px; align-self: center; margin-right: 6px;">Glen<span style="color: #0000FF;">Tok</span></span>
+        <span style="font-weight: bold; font-size: 18px; align-self: center; margin-right: 6px;">Glen<span style="color: #0000FF;">Tok</span>
         <button class="action-btn" id="shuffleBtn">Shuffle</button>
         <button class="action-btn" id="refreshBtn">Refresh</button>
         <button class="action-btn" id="autoBtn">Auto: Off</button>
@@ -147,7 +148,7 @@ HTML_PAGE = """<!DOCTYPE html>
     <div class="video-info" id="videoTitle">Loading videos...</div>
 
     <footer>
-        &copy; 2026 Glens Alarms.</span>
+        &copy; 2026 Glens Alarms. Licenced Under The MIT Licence</span>
     </footer>
 
     <script>
