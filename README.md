@@ -20,10 +20,15 @@ Try GlenTok right in your browser without installing anything:
 - **Native**
 
 ## Docker Compose
-- **Clone this Git repo into a folder named 'glentok-server' or 'glentok--server' **
-- **CD to the file directory e.g. 'cd c:/glentok-server'**
-- **Then run this commands**
-- docker compose up -d
+1. **Clone or download this Git repo** into a folder named `glentok-server` or `glentok--server`.
+2. **Place your video files** (`.mp4`, `.webm`, `.mov`, `.m4v`) inside the `Content` subfolder.
+3. **Navigate to the directory** in your terminal (e.g., `cd C:\glentok-server` or `cd ~/glentok-server`).
+4. **Start the container:**
+   ```bash
+   docker compose up -d
+   ```
+5. **Open in your browser:** Navigate to `http://localhost:3003` (or `http://<your-server-ip>:3003`).
+
 
 ## Prerequisites
 * **Python:** Ensure you have Python installed on your system.
