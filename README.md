@@ -15,6 +15,16 @@ Try GlenTok right in your browser without installing anything:
 - **Remote Access ready** (works over your local network or behind a tunnel/reverse proxy)
 - **Ad Free** experience (no ads, pop-ups, or algorithms)
 
+## Deployment Methods
+- **Docker Compose**
+- **Native**
+
+## Docker Compose
+- **Clone this Git repo into a folder named 'glentok-server' or 'glentok--server' **
+- **CD to the file directory e.g. 'cd c:/glentok-server'**
+- **Then run this commands**
+- docker compose up -d
+
 ## Prerequisites
 * **Python:** Ensure you have Python installed on your system.
 * **Custom Favicon (Optional):** To display a browser tab icon, place a PNG image named `logo.png` in the root folder alongside `server.py`.
