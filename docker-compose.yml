@@ -1,0 +1,12 @@
+services:
+  glentok:
+    build: .
+    container_name: glentok
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./Content:/app/Content
+    environment:
+      - PORT=3003
+      - VIDEO_DIR=/app/Content
+    restart: unless-stopped
